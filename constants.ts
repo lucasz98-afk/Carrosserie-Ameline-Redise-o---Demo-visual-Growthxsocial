@@ -1,4 +1,4 @@
-import { NavItem, VehicleModel, StockVehicle } from './types';
+import { NavItem, VehicleModel, StockVehicle, Distributor } from './types';
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Nuestros Modelos', href: '#modelos' },
@@ -114,10 +114,95 @@ export const EXPERIENCES = [
   }
 ];
 
-export const DISTRIBUTORS = [
-  { name: 'CARROSSERIE AMELINE', country: 'España', address: 'Calle la Bisbal nº14, Polígono industrial de Vilamalla', url: 'https://www.carrosserie-ameline.com/' },
-  { name: 'STARTERRE EQUESTRE', country: 'Francia', address: '33 Boulevard Lucien Sampaix, 69190 Saint-Fons', url: 'https://www.starterre-equestre.fr/' },
-  { name: 'XTREME CARGO AB', country: 'Suecia', address: 'Sweden', url: 'https://www.xtremecargo.se/' },
+export const DISTRIBUTORS: Distributor[] = [
+  { 
+    name: 'CARROSSERIE AMELINE', 
+    country: 'España', 
+    address: 'Calle la Bisbal nº14, Polígono industrial de Vilamalla, 7469 Vilamalla', 
+    url: 'https://www.carrosserie-ameline.com/',
+    mapCoordinates: { top: '80%', left: '20%' } // Spain
+  },
+  { 
+    name: 'STARTERRE EQUESTRE', 
+    country: 'Francia', 
+    address: '33 Boulevard Lucien Sampaix, 69190 Saint-Fons', 
+    url: 'https://www.starterre-equestre.fr/',
+    mapCoordinates: { top: '65%', left: '30%' } // France
+  },
+  { 
+    name: "Meik's Pferdetaxi", 
+    country: 'Alemania', 
+    address: 'Frankenstraße 64, 41569 Rommerskirchen', 
+    url: 'www.meiks-pferdetaxi.de',
+    phone: '+49 1523 3912640',
+    mapCoordinates: { top: '50%', left: '42%' } // Germany
+  },
+  { 
+    name: "Grenan Evasion", 
+    country: 'Bélgica', 
+    address: '15, rue Adrienne Bolland, 6041 Gosselies', 
+    url: 'https://grenan-evasion.be/',
+    phone: '0032486720011',
+    email: 'info@grenan-evasion.be',
+    mapCoordinates: { top: '52%', left: '35%' } // Belgium
+  },
+  { 
+    name: "FR CAR SRL", 
+    country: 'Italia', 
+    address: 'Via Roma, 203, 19020 Sesta Godano (SP)', 
+    url: 'https://www.gruppofr.it/',
+    phone: '+39 392 0657737',
+    mapCoordinates: { top: '75%', left: '48%' } // Italy
+  },
+  { 
+    name: "ALEKSANDR POZDEEV", 
+    country: 'Rusia', 
+    address: 'Saint Petersburg', 
+    url: '#',
+    phone: '007 921 326 50 00',
+    email: 'horse.trans@mail.ru',
+    mapCoordinates: { top: '20%', left: '85%' } // Russia (St Petersburg)
+  },
+  { 
+    name: "TAMPEREEN AJOPELIT OY", 
+    country: 'Finlandia', 
+    address: 'Teollisuustie 6, 33470 Ylöjärvi', 
+    url: 'https://ajopelit.fi/',
+    phone: '+358 10 5048170',
+    mapCoordinates: { top: '15%', left: '60%' } // Finland
+  },
+  { 
+    name: "Krabbe Invest Handel.dk", 
+    country: 'Dinamarca', 
+    address: 'Marianes Vej 4, 7752 Snedsted', 
+    url: 'http://www.krabbeinvesthandel.dk/',
+    phone: '+45 97 10 15 36',
+    mapCoordinates: { top: '40%', left: '40%' } // Denmark
+  },
+  { 
+    name: "George Smith Horseboxes", 
+    country: 'Reino Unido', 
+    address: '31B Link Road, West Wilts Trading Estate, Westbury, Wiltshire BA13 4JB', 
+    url: 'https://www.georgesmithhorseboxes.com/',
+    phone: '+44 (0)1980 620158',
+    email: 'info@georgesmithhorseboxes.com',
+    mapCoordinates: { top: '48%', left: '25%' } // UK
+  },
+  { 
+    name: "JS HORSETRUCKS", 
+    country: 'Irlanda', 
+    address: 'Ashgrove Stables, Jordanstown, Oldtown, Co. Dublin, A45 NA47', 
+    url: 'https://www.jshorsetrucks.ie/',
+    phone: '+353 87 635 1556',
+    mapCoordinates: { top: '45%', left: '18%' } // Ireland
+  },
+  { 
+    name: "XTREME CARGO AB", 
+    country: 'Suecia', 
+    address: 'LERBERGSVAGEN 47, 43495 KUNGSBACKA', 
+    url: 'https://www.xtremecargo.se/',
+    mapCoordinates: { top: '25%', left: '45%' } // Sweden
+  },
 ];
 
 export const ASSETS = {

@@ -27,3 +27,13 @@ export interface NavItem {
   label: string;
   href: string;
 }
+
+export interface Distributor {
+  name: string;
+  country: string;
+  address: string;
+  url: string;
+  phone?: string;
+  email?: string;
+  mapCoordinates: { top: string; left: string }; // Percentages for map placement
+}
