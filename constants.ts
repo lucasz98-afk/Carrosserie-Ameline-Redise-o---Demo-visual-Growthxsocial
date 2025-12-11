@@ -6,7 +6,6 @@ export const NAV_ITEMS: NavItem[] = [
   { label: 'Alquiler y Transportistas', href: '#alquiler' },
   { label: '¿Quiénes Somos?', href: '#about' },
   { label: 'Servicios', href: '#servicios' },
-  { label: 'Contacto', href: '#contacto' },
 ];
 
 export const MODELS: VehicleModel[] = [
@@ -120,14 +119,14 @@ export const DISTRIBUTORS: Distributor[] = [
     country: 'España', 
     address: 'Calle la Bisbal nº14, Polígono industrial de Vilamalla, 7469 Vilamalla', 
     url: 'https://www.carrosserie-ameline.com/',
-    mapCoordinates: { top: '80%', left: '20%' } // Spain
+    mapCoordinates: { top: '82%', left: '20%' } // Spain
   },
   { 
     name: 'STARTERRE EQUESTRE', 
     country: 'Francia', 
     address: '33 Boulevard Lucien Sampaix, 69190 Saint-Fons', 
     url: 'https://www.starterre-equestre.fr/',
-    mapCoordinates: { top: '65%', left: '30%' } // France
+    mapCoordinates: { top: '68%', left: '30%' } // France
   },
   { 
     name: "Meik's Pferdetaxi", 
@@ -135,7 +134,7 @@ export const DISTRIBUTORS: Distributor[] = [
     address: 'Frankenstraße 64, 41569 Rommerskirchen', 
     url: 'www.meiks-pferdetaxi.de',
     phone: '+49 1523 3912640',
-    mapCoordinates: { top: '50%', left: '42%' } // Germany
+    mapCoordinates: { top: '55%', left: '42%' } // Germany
   },
   { 
     name: "Grenan Evasion", 
@@ -144,7 +143,7 @@ export const DISTRIBUTORS: Distributor[] = [
     url: 'https://grenan-evasion.be/',
     phone: '0032486720011',
     email: 'info@grenan-evasion.be',
-    mapCoordinates: { top: '52%', left: '35%' } // Belgium
+    mapCoordinates: { top: '55%', left: '34%' } // Belgium
   },
   { 
     name: "FR CAR SRL", 
@@ -152,7 +151,7 @@ export const DISTRIBUTORS: Distributor[] = [
     address: 'Via Roma, 203, 19020 Sesta Godano (SP)', 
     url: 'https://www.gruppofr.it/',
     phone: '+39 392 0657737',
-    mapCoordinates: { top: '75%', left: '48%' } // Italy
+    mapCoordinates: { top: '78%', left: '46%' } // Italy
   },
   { 
     name: "ALEKSANDR POZDEEV", 
@@ -161,7 +160,7 @@ export const DISTRIBUTORS: Distributor[] = [
     url: '#',
     phone: '007 921 326 50 00',
     email: 'horse.trans@mail.ru',
-    mapCoordinates: { top: '20%', left: '85%' } // Russia (St Petersburg)
+    mapCoordinates: { top: '25%', left: '80%' } // Russia (St Petersburg approx on this projection)
   },
   { 
     name: "TAMPEREEN AJOPELIT OY", 
@@ -169,7 +168,7 @@ export const DISTRIBUTORS: Distributor[] = [
     address: 'Teollisuustie 6, 33470 Ylöjärvi', 
     url: 'https://ajopelit.fi/',
     phone: '+358 10 5048170',
-    mapCoordinates: { top: '15%', left: '60%' } // Finland
+    mapCoordinates: { top: '22%', left: '62%' } // Finland
   },
   { 
     name: "Krabbe Invest Handel.dk", 
@@ -177,7 +176,7 @@ export const DISTRIBUTORS: Distributor[] = [
     address: 'Marianes Vej 4, 7752 Snedsted', 
     url: 'http://www.krabbeinvesthandel.dk/',
     phone: '+45 97 10 15 36',
-    mapCoordinates: { top: '40%', left: '40%' } // Denmark
+    mapCoordinates: { top: '42%', left: '43%' } // Denmark
   },
   { 
     name: "George Smith Horseboxes", 
@@ -186,7 +185,7 @@ export const DISTRIBUTORS: Distributor[] = [
     url: 'https://www.georgesmithhorseboxes.com/',
     phone: '+44 (0)1980 620158',
     email: 'info@georgesmithhorseboxes.com',
-    mapCoordinates: { top: '48%', left: '25%' } // UK
+    mapCoordinates: { top: '50%', left: '25%' } // UK
   },
   { 
     name: "JS HORSETRUCKS", 
@@ -194,14 +193,14 @@ export const DISTRIBUTORS: Distributor[] = [
     address: 'Ashgrove Stables, Jordanstown, Oldtown, Co. Dublin, A45 NA47', 
     url: 'https://www.jshorsetrucks.ie/',
     phone: '+353 87 635 1556',
-    mapCoordinates: { top: '45%', left: '18%' } // Ireland
+    mapCoordinates: { top: '48%', left: '18%' } // Ireland
   },
   { 
     name: "XTREME CARGO AB", 
     country: 'Suecia', 
     address: 'LERBERGSVAGEN 47, 43495 KUNGSBACKA', 
     url: 'https://www.xtremecargo.se/',
-    mapCoordinates: { top: '25%', left: '45%' } // Sweden
+    mapCoordinates: { top: '35%', left: '48%' } // Sweden
   },
 ];
 

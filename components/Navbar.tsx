@@ -33,23 +33,25 @@ const Navbar: React.FC = () => {
             : 'top-6 w-[98%] bg-white/10 backdrop-blur-md border border-white/10 py-3'
         }`}
       >
-        <div className="container mx-auto px-4 flex justify-between items-center relative">
-          {/* Logo */}
-          <a href="#" className="flex-shrink-0 relative z-50 pl-2">
-            <img 
-              src={ASSETS.logo} 
-              alt="Carrosserie Ameline" 
-              className={`transition-all duration-500 object-contain ${scrolled ? 'h-8' : 'h-10 brightness-0 invert'}`} 
-            />
-          </a>
+        <div className="container mx-auto px-4 flex justify-between items-center">
+          {/* Logo Area */}
+          <div className="flex-shrink-0 w-32 md:w-48">
+            <a href="#" className="block">
+              <img 
+                src={ASSETS.logo} 
+                alt="Carrosserie Ameline" 
+                className={`transition-all duration-500 object-contain ${scrolled ? 'h-8' : 'h-10 brightness-0 invert'}`} 
+              />
+            </a>
+          </div>
 
-          {/* Desktop Nav - Absolutely Centered */}
-          <div className="hidden xl:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center gap-8">
+          {/* Desktop Nav - Flex Center - Resilient to overlapping */}
+          <div className="hidden xl:flex flex-1 justify-center items-center gap-6 2xl:gap-8 px-4">
             {NAV_ITEMS.map((item) => (
               <a 
                 key={item.label} 
                 href={item.href}
-                className={`text-[11px] font-bold tracking-[0.2em] uppercase hover:text-gold transition-all duration-300 relative group whitespace-nowrap ${scrolled ? 'text-dark' : 'text-white'}`}
+                className={`text-[10px] 2xl:text-[11px] font-bold tracking-[0.2em] uppercase hover:text-gold transition-all duration-300 relative group whitespace-nowrap ${scrolled ? 'text-dark' : 'text-white'}`}
               >
                 {item.label}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gold transition-all duration-300 group-hover:w-full"></span>
@@ -57,8 +59,8 @@ const Navbar: React.FC = () => {
             ))}
           </div>
 
-          {/* Action Buttons */}
-          <div className="hidden xl:flex items-center gap-4 flex-shrink-0 z-50 pr-2">
+          {/* Action Buttons Area */}
+          <div className="hidden xl:flex items-center gap-4 flex-shrink-0 justify-end w-32 md:w-48">
               {/* Language Switcher */}
               <div className="relative">
                 <button 
